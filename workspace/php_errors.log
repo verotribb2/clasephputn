@@ -1,0 +1,48 @@
+[29-May-2015 22:38:32 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 67
+[29-May-2015 22:38:32 UTC] PHP Stack trace:
+[29-May-2015 22:38:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/myapp/index.php:0
+[29-May-2015 22:38:32 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:38:32 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:38:32 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/myapp/vendor/composer/ClassLoader.php:301
+[29-May-2015 22:39:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 67
+[29-May-2015 22:39:55 UTC] PHP Stack trace:
+[29-May-2015 22:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/myapp/index.php:0
+[29-May-2015 22:39:55 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:39:55 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:39:55 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/myapp/vendor/composer/ClassLoader.php:301
+[29-May-2015 22:40:17 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 67
+[29-May-2015 22:40:17 UTC] PHP Stack trace:
+[29-May-2015 22:40:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/myapp/index.php:0
+[29-May-2015 22:40:17 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:40:17 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:40:17 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/myapp/vendor/composer/ClassLoader.php:301
+[29-May-2015 22:47:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 67
+[29-May-2015 22:47:56 UTC] PHP Stack trace:
+[29-May-2015 22:47:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/myapp/index.php:0
+[29-May-2015 22:47:56 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:47:56 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:47:56 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/myapp/vendor/composer/ClassLoader.php:301
+[29-May-2015 22:48:38 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 67
+[29-May-2015 22:48:38 UTC] PHP Stack trace:
+[29-May-2015 22:48:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/myapp/index.php:0
+[29-May-2015 22:48:38 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:48:38 UTC] PHP   3. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/myapp/index.php:9
+[29-May-2015 22:48:38 UTC] PHP   4. Composer\Autoload\includeFile() /home/ubuntu/workspace/myapp/vendor/composer/ClassLoader.php:301
+[29-May-2015 22:48:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'personas'' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/myapp/index.php(9): myapp\Classes\DB\DB->__construct()
+#2 {main}
+  thrown in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 14
+[29-May-2015 22:48:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'personas'' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/myapp/index.php(9): myapp\Classes\DB\DB->__construct()
+#2 {main}
+  thrown in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 14
+[29-May-2015 22:48:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'personas'' in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php(14): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/myapp/index.php(9): myapp\Classes\DB\DB->__construct()
+#2 {main}
+  thrown in /home/ubuntu/workspace/myapp/src/Classes/DB/DB.php on line 14
